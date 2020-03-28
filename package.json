@@ -4,7 +4,7 @@
   "description": "App de pergunta e respostas",
   "main": "src/serve.ts",
   "scripts": {
-    "dev": "nodemon src/server.ts",
+    "dev": "nodemon src/serve.ts",
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "sucrase ./src -d ./dist --transforms typescript,imports"
   },
@@ -32,6 +32,7 @@
   },
   "homepage": "https://github.com/Edilsonss123/app-perguntas-respostas#readme",
   "dependencies": {
+    "ejs": "^3.0.1",
     "express": "^4.17.1"
   }
 }
