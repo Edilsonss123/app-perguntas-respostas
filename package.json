@@ -33,6 +33,6 @@
   "homepage": "https://github.com/Edilsonss123/app-perguntas-respostas#readme",
   "dependencies": {
     "ejs": "^3.0.1",
-    "express": "^4.17.1"
+    "express": "^4.17.3"
   }
 }
